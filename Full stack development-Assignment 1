@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Projects</h1>
+    <table border="1">
+        <tr>
+            <td>Project Name</td>
+            <th>Links</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td><a href="./Assignment.html">View html page</a></td>
+        </tr>
+        <tr>
+            <td>Stylecss</td>
+            <td><a href="./css1.html">View styles</a></td>
+        </tr>
+        <td>Sidebar</td>
+        <td><a href="./ini.html">View Sidebar</a></td>
+        </tr>
+        <tr>
+            <td>Flex box</td>
+            <td><a href="./flex.HTML">View Flex</a></td>
+        </tr>
+    </table>
+</body>
+</html>
