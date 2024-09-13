@@ -1,0 +1,35 @@
+h1 {
+        font-family: "Roboto-bold-italic", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        text-align: center;
+  }
+  body {
+    background-color: rgb(204, 126, 126);
+  }
+  
+  table {
+    width: 100%;
+  }
+  table,
+  th,
+  td {
+    border-collapse: collapse;
+    border-color: white;
+    background-color: rgb(109, 245, 188);
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    color: white;
+    background-color: black;
+  }
+  
