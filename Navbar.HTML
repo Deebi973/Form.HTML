@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        h2{
+            color: skyblue;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            display: block;
+        }
+        nav{
+            background-color: silver;
+            padding: 10px;
+            color: blanchedalmond;
+        }
+        .navbar-item{
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            margin: 0 10px;
+            padding: 5px 50px;
+        }
+        .navbar-flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 4px;
+        }
+        .navbar-grid{
+            display: grid;
+            grid-template-columns: repeat(3,auto);
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .navbar-inline{
+            display: inline;
+            gap: 5px;
+            text-align: center;
+            align-items: center;
+        }
+
+        .navbar-block{
+            display: block;
+            margin:0 auto;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .navbar-inline a{
+            display: inline-block;
+            margin-right: 10px;
+            padding: 10px 20px;
+            background-color: darkblue;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+   <h2>Navbar using Flexbox</h2>
+    <nav class="navbar-flex">
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item">Contact</div>
+    </nav>
+
+ <h2>Navbar using Grid</h2>
+    <nav class="navbar-grid">
+        <div class="navbar-item">Home</div>
+        <div class="navbar-item">About</div>
+        <div class="navbar-item">Contact</div>
+    </nav>
+
+    <h2>Navbar using Block and Inline block</h2>
+    <nav class="navbar-inline-block">
+        <a href="#" class="navbar-block">Home</a>
+        <a href="#" class="navbar-block">About</a>
+        <a href="#" class="navbar-block">Contact</a>
+    </nav>
+
+    <h2>Navbar using Inline</h2>
+    <nav class="navbar-inline">
+    <a href="#" class="navbar-inline" >Home</a>
+    <a href="#" class="navbar-inline" >About</a>
+    <a href="#" class="navbar-inline" >Contact</a>
+    </nav>
+</body>
+</html>
