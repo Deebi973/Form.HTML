@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid#ddd;
+            display: flex;
+            flex-direction: row;
+        }
+        .image-gallery{
+            
+            width: 100%;
+        }
+        .img{
+            height: 200px;
+            width: 200px;
+        }
+        @media(min-width=600px){
+            .image-gallery{
+              flex-direction: column; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="image-gallery">
+        <img src="download.jpg" alt="Image 1" class="img">
+        <img src="download (1).jpg" alt="Image 2" class="img">
+        <img src="download.jpg" alt="Image 3" class="img">
+        <img src="download (1).jpg" alt="Image 4" class="img">
+    </div>
+</div>
+</body>
+</html>

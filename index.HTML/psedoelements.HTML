@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6;
+        }
+
+        h1{
+            text-align: center;
+            color: #333;
+        }
+
+        h1::before{
+content: "NOTCS";
+color: gold;
+        }
+
+        h1::after{
+            content: "ENDED";
+            color: gold;
+        }
+        p{
+            margin: 20px;
+            padding: 10px;
+            background: #f0f0f0;
+            border-left: 5px solid blue;
+        }
+
+        p::first-letter{
+            font-size: 2em;
+            color: red;
+        }
+        p::first-line{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        ::selection{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to psedo elements</h1>
+
+    <p>Pseudo can be a person who is a faker, but it's usually a prefix. For example, a pseudo-intellectual is trying to convince you he has a great, educated mind, even though he doesn't. A pseudo-celebrity isn't really very famous.</p>
+</body>
+</html>
