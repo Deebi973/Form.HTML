@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: wheat;
+        }
+
+        .header, .footer{
+           background-color: blue;
+           color: wheat;
+           text-align: center;
+           padding: 20px;
+        }
+        .container{
+            position: relative;/* Establishing a positioning context*/
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            margin: 20px auto;
+            width: 80%;
+            height: 500px;/*Adjust height for better visibility */
+        }
+        .about{
+            margin-bottom: 30px;
+            background-color: rgb(184, 64, 64);
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .about-image{
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .relative{
+            position: relative;
+            top: 10px;
+            background-color: turquoise;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .absolute{
+            position: relative;
+            top: 10px;
+            margin-bottom: 10px;
+            background-color: violet;
+            color: rgb(237, 232, 241);
+            padding: 20px;
+            border-radius: 10px;/* Rounded Corners */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);/*Adds shadow for better visibility*/
+        }
+        .contact-image{
+            width: 50px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">Fit</header>
+    <main class="container">
+        <section class="about">
+            <h2>About US</h2>
+            <p>At fit, we are commited to delivering top-notch services thet cover to the unique need of our clients. Our mission is to innovative and provide solution taht enhance your business experience</p>
+       <img src="download.jpg" alt="About Us Image" class="about-image">
+        </section>
+
+        <!--Absolute positioning for contact section-->
+        <section class="absolute">
+            <img src="download (1).jpg" alt="Contact Us Image" class="contact-image">
+            <h3>contact us</h3>
+            <p>If you have any questions or need futher information, please don't hesitates to reach to us!</p>
+        </section>
+        <section class="relative">Meet Our Team</section>
+    </main>
+    <footer class="footer">0 2024 Fictional Company Nmae, All rights reserved</footer>
+</body>
+</html>

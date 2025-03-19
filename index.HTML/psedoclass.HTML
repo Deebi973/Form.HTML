@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-color: violet;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .form-container{
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        h2{
+            text-align: center;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #131111;
+            border-radius: 4px;
+            background-color: rgb(226, 238, 238);
+        }
+
+        /* Styles for input elements that are NOT of type text*/
+        input:not([type="text"])
+        textarea{
+            background-color: wheat;/* Light background for non-text inputs*/
+        }
+
+        /*Focus effect*/
+        input:focus,
+        textarea:focus{
+            border-color: blue;
+            outline: none;
+        }
+        /* Hover effect for submit button*/
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: lightblue;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover{
+            background-color: teal;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Contact US</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea type="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

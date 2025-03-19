@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container{
+            background-color: aqua;
+            padding: 20px;
+            text-align: center;
+        }
+        /* styles for screens wider then 600px*/
+      
+        @media(min-width:600px) {
+            .container{
+                background-color: yellow;
+            }
+        }
+ /* styles for screens smaller then 600px*/
+        @media(max-width:900px) {
+            .container{
+                background-color: lightblue;
+            }
+        }
+           
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Media Queries</h1>
+        <p>Resize the window to see the background-color change!</p>
+    </div>
+</body>
+</html>
